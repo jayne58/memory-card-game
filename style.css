@@ -10,7 +10,7 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #6563FF;
+    background-color: #6563FF;
   }
   
   .game-board {
@@ -33,7 +33,11 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
+.timer {
+  display:flex;
+  justify-content: end;
+  margin: 20px;
+}
 .cards .card {
   cursor: pointer;
   list-style: none;
